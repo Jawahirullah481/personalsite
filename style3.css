@@ -1,0 +1,382 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    width: 100%;
+    background-color: black;
+}
+
+header
+{
+    padding-top: 20px;
+}
+
+.container
+{
+    float: right;
+    margin-right: 10px;
+    border: 1px solid gold;
+    background-color: gold;
+    outline-offset: .1px;
+    outline-style: solid;
+    outline-color: blue;
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.downloader
+{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: #175676;
+    opacity: .5;
+}
+
+.downloader:hover
+{
+    opacity: 1;
+    border: 10px solid gold;
+}
+
+.downloader:focus
+{
+    opacity: 1;
+    border: 10px solid gold;
+}
+
+.downloader::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #081b29;
+    animation: showRight 1s ease forwards;
+    animation-delay: 5s;
+}
+
+.downloader h1
+{
+    padding: 10px;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: deeppink;
+    text-shadow: 5px 5px  5px black;
+}
+
+.downloader summary
+{
+    padding: 10px;
+    list-style: none;
+}
+
+.about
+{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.about:hover
+{
+    font-size: 50px;
+    color: white;
+    transition: 1s;
+}
+
+.downloader summary:hover
+{
+    cursor: pointer;
+}
+
+.img-table
+{
+    margin: auto;
+}
+
+.table-img
+{
+    height: 500px;
+    width: 100%;
+}
+
+.table-summary
+{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.demo
+{
+    text-align: center;
+}
+
+button
+{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: gold;
+    border-color: gold;
+    cursor: pointer;
+}
+
+.em
+{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: #1c678d;
+    opacity: .5;
+}
+
+.em:hover
+{
+    opacity: 1;
+    border: 10px solid gold;
+}
+
+.em:focus
+{
+    opacity: 1;
+    border: 10px solid gold;
+}
+
+.em::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #081b29;
+    animation: showRight 1s ease forwards;
+    animation-delay: 7s;
+}
+
+.em h1
+{
+    padding: 10px;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: deeppink;
+    text-shadow: 5px 5px  5px black;
+}
+
+.em summary
+{
+    padding: 10px;
+    list-style: none;
+}
+
+.about
+{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.em summary:hover
+{
+    cursor: pointer;
+}
+
+.emc
+{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: #2077a3;
+    opacity: .5;
+}
+
+.emc:hover
+{
+    opacity: 1;
+    border: 10px solid gold;
+}
+
+.emc:focus
+{
+    opacity: 1;
+    border: 10px solid gold;
+}
+
+.emc::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #081b29;
+    animation: showRight 1s ease forwards;
+    animation-delay: 9s;
+}
+
+.emc h1
+{
+    padding: 10px;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: deeppink;
+    text-shadow: 5px 5px  5px black;
+}
+
+.emc summary
+{
+    padding: 10px;
+    list-style: none;
+}
+
+.about
+{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.emc summary:hover
+{
+    cursor: pointer;
+}
+
+.mr
+{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: #2587b9;
+    opacity: .5;
+}
+
+.mr:hover
+{
+    opacity: 1;
+    border: 10px solid gold;
+}
+
+.mr:focus
+{
+    opacity: 1;
+    border: 10px solid gold;
+}
+
+.mr::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #081b29;
+    animation: showRight 1s ease forwards;
+    animation-delay:11s;
+}
+
+.mr h1
+{
+    padding: 10px;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: deeppink;
+    text-shadow: 5px 5px  5px black;
+}
+
+.mr summary
+{
+    padding: 10px;
+    list-style: none;
+}
+
+.about
+{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.mr summary:hover
+{
+    cursor: pointer;
+}
+
+.tb
+{
+    position: relative;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    background-color: #2998cf;
+    opacity: .5;
+}
+
+.tb:hover
+{
+    opacity: 1;
+    border: 10px solid gold;
+}
+
+.tb:focus
+{
+    opacity: 1;
+    border: 10px solid gold;
+}
+
+.tb::before
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #081b29;
+    animation: showRight 1s ease forwards;
+    animation-delay: 13s;
+}
+
+.tb h1
+{
+    padding: 10px;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: deeppink;
+    text-shadow: 5px 5px  5px black;
+}
+
+.tb summary
+{
+    padding: 10px;
+    list-style: none;
+}
+
+.about
+{
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.tb summary:hover
+{
+    cursor: pointer;
+}
+
+@keyframes showRight
+{
+    100%
+    {
+        width: 0;
+    }
+}
