@@ -69,10 +69,10 @@ body
 .home{
     width: 100vw;
     min-height: 100vh;
+    max-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px 0;
 }
 
 .home-wrapper-1{
@@ -141,8 +141,8 @@ body
 .home-Content p
 {
     position: relative;
-    font-size: 20px;
-    margin: 20px  0 40px;
+    font-size: 17px;
+    margin: 20px 0 30px;
 }
 
 .home-Content p::selection
