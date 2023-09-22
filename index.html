@@ -25,7 +25,9 @@
 <body>
     <header class="header">
         <a href="#" class="logo">Mohamed Zubair M</a>
-        <nav class="NavBar">
+        <i class='bx bx-menu icon-menu' style="font-size: 36px;" onclick="toggleMenu()"></i>
+        <nav class="NavBar" id="menu">
+            <i class='bx bx-plus icon-close' style="font-size: 36px;" onclick="closeMenu()"></i>
             <a href="#" class="active">Home</a>
             <a href="about.html">About</a>
             <a href="Mohamed Zubair Resume.pdf" download="true">Portfolio</a>
@@ -34,7 +36,6 @@
         </nav>
     </header>
     <main>
-        <!-- logo s-.4 e-1.4 d-1 | h1 s-1 e-2 d-1 | p s-2 e-3 d-1 | home-sci s-3 e-4 d-1 | button s-4 e-5 d-1 -->
         <section class="home">
             <div class="home-wrapper-1">
             <div class="home-wrapper-2">
@@ -83,6 +84,18 @@
             </div>
         </section>
     </main>
+    <script>
+        function toggleMenu()
+        {
+
+            document.getElementById("menu").style.right = 0;
+        }
+
+        function closeMenu()
+        {
+            document.getElementById("menu").style.right = "-100%";
+        }
+    </script>
 </body>
 
 </html>
